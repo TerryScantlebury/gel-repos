@@ -61,6 +61,6 @@ Location on SQL Server: (SQL jobs object)
 
 Purity_PowerBI_updated.sql : Scripted steps to update Power_BI_data tables.  
 * Step 1: CopyProdCounts : Runs the following DTS package to import the count data "C:\Users\administrator.PURITY\Documents\Integration Services Script Task\GetProdCounts.dtsx"  
-* Step 2: All steps : (all other steps to create the power bi data files from the live applicatikon data)
+* Step 2: All steps : (all other steps to create the power bi data files from the live applicatikon data)  
 
-
+Purity_PowerBI_Create_New.sql : Scripted steps to recreate an empty Power_BI_data tables database.  
